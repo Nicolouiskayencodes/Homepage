@@ -21,3 +21,29 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+@font-face {
+  font-family: 'abril';
+  src: url('fonts/abrilfatface-regular-webfont.woff2') format('woff2'),
+       url('fonts/abrilfatface-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'rubik';
+  src: url('./fonts/rubik-variablefont_wght-webfont.woff2') format('woff2'),
+       url('./fonts/rubik-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.test{
+  font-family: 'abril', serif;
+}
+.test2{
+  font-family: 'rubik', serif;
+}
