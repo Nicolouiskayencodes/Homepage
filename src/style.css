@@ -42,14 +42,15 @@ p, h1, h2, h3, h4, h5, h6 {
 header, main {
   font-family: 'abril', serif;
 }
-img{
+/* img{
   height: 100px;
   width: auto;
-}
+} */
 header{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: linear-gradient(145deg, rgb(0, 133, 178) 40%, white 25%);
 }
 .portrait-container{
   position: relative;
@@ -58,16 +59,16 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(145deg, rgb(0, 133, 178) 62%, white 50%);
 }
 .portrait>img{
   margin-top: 30px;
   width: calc(100% - 60px);
   height: auto;
+  box-shadow: 3px 3px 3px darkslategray;
 }
 .portrait-text{
   position: absolute;
-  bottom: 5%;
+  bottom: 40%;
   color: white;
   text-align: center;
   font-size: 32px;
@@ -108,8 +109,8 @@ h1 {
 .project{
   margin: 20px;
   flex: 1;
-  min-width: 300px;
-  max-width: 600px;
+  min-width: 250px;
+  max-width: 350px;
   box-shadow: 3px 3px 3px grey, -1px 3px 3px grey;
 }
 .project-photo{
@@ -178,4 +179,66 @@ footer{
 .footer-portrait{
   width: 100%;
   height: auto;
+}
+
+@media (min-width: 600px) {
+  header{
+    background: linear-gradient(160deg, rgb(0, 133, 178) 40%, white 25%);
+  }
+  .portrait{
+    width: 300px;
+    height: 350px;
+    float:left;
+
+    position: relative;
+    top: -100px
+  }
+  .portrait-text{
+    left: 240px;
+    top: -70px;
+    font-size: 40px;
+    width: auto;
+    text-shadow: 1px 1px 1px black;
+  }
+  .bio-info{
+    background-color: white;
+    box-shadow: 3px 3px 3px grey, -1px 3px 3px grey;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .aboutme{
+    margin-top: 100px;
+  }
+  .bio-icons{
+    padding-bottom: 20px;
+  }
+  .work{
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: left;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+  }
+  .footer-left{
+    flex: 1.5;
+    margin: 50px;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .fp-container{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    margin: 50px;
+  }
+  .in-touch{
+    font-size: 24px;
+  }
+  .project{
+    min-width: 330px;
+  }
+
 }
