@@ -8,15 +8,21 @@
 <body>
   <header>
     <div class="portrait-container">
-      <img src="photos/nico.jpg" alt="A picture of Nicolas" class="portrait">
-      <span class="portait-text">Nicolas Louis-Kayen</span>
+      <picture class="portrait">
+        <source
+          srcset="photos/nico.jpg"
+          media="(min-width: 600px)"
+          />
+          <img src="photos/nicozoom.jpeg" alt="A photo of Nicolas">
+      </picture>
+      <p class="portrait-text">Nicolas Louis-Kayen</p>
     </div>
     <div class="bio">
       <h1 class="aboutme">About Me</h1>
       <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequatur dolorum optio animi labore? Excepturi corrupti nam voluptatem rem nobis hic at natus ad, a distinctio sequi quibusdam sint? Soluta?</p>
       <div class="icons bio-icons">
-        <a href=""><img src="photos/github-original.svg"></a>
-        <a href=""><img src="photos/linkedin-plain.svg"></a>
+        <a href=""><img src="photos/github-original.svg" alt="" class="icon"></a>
+        <a href=""><img src="photos/linkedin-plain.svg" alt="" class="icon"></a>
       </div>
     </div>
   </header>
@@ -30,8 +36,8 @@
         </a>
         <div class="project-flex">
           <h2 class="project-name">Project Name</h2>
-          <a href=""><img src="photos/github-original.svg" alt=""></a>
-          <a href=""><img src="photos/open-in-new.svg" alt=""></a>
+          <a href=""><img src="photos/github-original.svg" alt="" class="p-icon"></a>
+          <a href=""><img src="photos/open-in-new.svg" alt="" class="p-icon"></a>
         </div>
         <p class="project-info">A brief description of the project. Just a couple sentences will do.</p>
       </div>
@@ -42,8 +48,8 @@
         </a>
         <div class="project-flex">
           <h2 class="project-name">Project Name</h2>
-          <a href=""><img src="photos/github-original.svg" alt=""></a>
-          <a href=""><img src="photos/open-in-new.svg" alt=""></a>
+          <a href=""><img src="photos/github-original.svg" alt="" class="p-icon"></a>
+          <a href=""><img src="photos/open-in-new.svg" alt="" class="p-icon"></a>
         </div>
         <p class="project-info">A brief description of the project. Just a couple sentences will do.</p>
       </div>
@@ -54,8 +60,8 @@
         </a>
         <div class="project-flex">
           <h2 class="project-name">Project Name</h2>
-          <a href=""><img src="photos/github-original.svg" alt=""></a>
-          <a href=""><img src="photos/open-in-new.svg" alt=""></a>
+          <a href=""><img src="photos/github-original.svg" alt="" class="p-icon"></a>
+          <a href=""><img src="photos/open-in-new.svg" alt="" class="p-icon"></a>
         </div>
         <p class="project-info">A brief description of the project. Just a couple sentences will do.</p>
       </div>
@@ -66,8 +72,8 @@
         </a>
         <div class="project-flex">
           <h2 class="project-name">Project Name</h2>
-          <a href=""><img src="photos/github-original.svg" alt=""></a>
-          <a href=""><img src="photos/open-in-new.svg" alt=""></a>
+          <a href=""><img src="photos/github-original.svg" alt="" class="p-icon"></a>
+          <a href=""><img src="photos/open-in-new.svg" alt="" class="p-icon"></a>
         </div>
         <p class="project-info">A brief description of the project. Just a couple sentences will do.</p>
       </div>
@@ -78,8 +84,8 @@
         </a>
         <div class="project-flex">
           <h2 class="project-name">Project Name</h2>
-          <a href=""><img src="photos/github-original.svg" alt=""></a>
-          <a href=""><img src="photos/open-in-new.svg" alt=""></a>
+          <a href=""><img src="photos/github-original.svg" alt="" class="p-icon"></a>
+          <a href=""><img src="photos/open-in-new.svg" alt="" class="p-icon"></a>
         </div>
         <p class="project-info">A brief description of the project. Just a couple sentences will do.</p>
       </div>
@@ -90,8 +96,8 @@
         </a>
         <div class="project-flex">
           <h2 class="project-name">Project Name</h2>
-          <a href=""><img src="photos/github-original.svg" alt=""></a>
-          <a href=""><img src="photos/open-in-new.svg" alt=""></a>
+          <a href=""><img src="photos/github-original.svg" alt="" class="p-icon"></a>
+          <a href=""><img src="photos/open-in-new.svg" alt="" class="p-icon"></a>
         </div>
         <p class="project-info">A brief description of the project. Just a couple sentences will do.</p>
       </div>
@@ -112,11 +118,17 @@
         <span>nicolouiskayencodes@gmail.com</span>
       </div>
       <div class="icons footer-icons">
-        <a href=""><img src="photos/github-original.svg"></a>
-        <a href=""><img src="photos/linkedin-plain.svg"></a>
+        <a href=""><img src="photos/github-original.svg" alt="" class="icon"></a>
+        <a href=""><img src="photos/linkedin-plain.svg" alt="" class="icon"></a>
       </div>
     </div>
-    <img src="photos/nico.jpg" alt="">
+    <picture>
+      <source
+        srcset="photos/nico.jpg"
+        media="(min-width: 600px)"
+        />
+        <img src="photos/nicozoom.jpeg" alt="A photo of Nicolas">
+    </picture>
   </footer>
 </body>
 </html>
