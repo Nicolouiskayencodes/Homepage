@@ -114,6 +114,9 @@ h1 {
   width: 100%;
   height: 200px;
   background-color: crimson;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .p-icon{
   width: 2rem;
@@ -332,4 +335,9 @@ footer{
     margin-top: 20px;
     margin-left: 0;
   }
+}
+.photo-img{
+  width: 96%;
+  height: 92%;
+  object-fit: cover;
 }
